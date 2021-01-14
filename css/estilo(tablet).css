@@ -1,0 +1,79 @@
+/* 540px */
+
+@media only screen and (max-width: 600px) {
+    a{font-size: 18px;}
+    .titulo_header {
+        padding: 15px 0;
+        background: red;
+        width: 300px;
+    }
+
+    .titulo_header h1 {
+        font-size: 2.625em;
+    }
+
+    .titulo_header p {
+        font-size: 1.125em;
+    }
+}
+
+/* 790px */
+
+@media only screen and (min-width: 601px) {
+    a{font-size: 18px;}
+    .titulo_header {
+        padding: 15px 0;
+        margin: 0 auto;
+        width: 390px;
+    }
+
+    .titulo_header h1 {
+        font-size: 2.625em;
+    }
+
+    .titulo_header p {
+        font-size: 1.125em;
+    }
+
+/* Sobre o canal */
+    
+    .canal_container h1 {
+        font-size: 36px;
+    }
+    
+    .canal_container .pes p {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+
+    /* Populares do canal */
+
+    
+.populares {
+    padding: 30px 0;
+}
+
+.populares h1 {
+    padding: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+.mg {
+    padding: 25px;
+    margin: 10px 0;
+}
+
+.mg p {
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.4;
+    border: 1px solid #252525;
+    border-radius: 10px 0 0 0;
+    max-width: 425px;
+    margin: 0 auto;
+}
+
+}
+
